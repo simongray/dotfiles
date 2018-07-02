@@ -11,5 +11,5 @@
 							   ;; Otherwise, you can use the method from the README.
 							   (set! s/*explain-out* expound/printer))}
 
-	    :plugins      [[venantius/ultra "0.5.2"]
+	    :plugins      [[venantius/ultra "0.5.2" :exclusions [org.clojure/clojure]]
 	                   [lein-ancient "0.6.15"]]}}
