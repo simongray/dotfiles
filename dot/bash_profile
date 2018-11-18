@@ -1,6 +1,7 @@
 # any environment variables that should not be on Github are sourced from here
-source ~/.local_env
-
+if [ -f ~/.local_env ]; then 
+  source ~/.local_env
+fi
 
 # https://stackoverflow.com/questions/26252591/mac-os-x-and-multiple-java-versions#47699905
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
