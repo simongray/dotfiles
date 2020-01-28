@@ -6,3 +6,4 @@
 
 cp ~/.bash_profile dot/bash_profile
 cp ~/.lein/profiles.clj dot/lein/profiles.clj
+cp ~/.clojure/deps.edn dot/clojure/deps.edn
